@@ -1,24 +1,35 @@
-# README
+# Animal Shelter
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### _Rails API, 07/21/17_
 
-Things you may want to cover:
+#### By **David Shin**
 
-* Ruby version
+## Description
 
-* System dependencies
+API for information about animal shelter.
 
-* Configuration
+## End Points
 
-* Database creation
+* GET all animals: http://localhost:3000/animals
+* GET animal: http://localhost:3000/animals/:id
+* POST animal: http://localhost:3000/animals
+* PUT animal: http://localhost:3000/animals/:id
+* DELETE animal: http://localhost:3000/animals/:id
+* RANDOM animal: http://localhost:3000/animals?random_animal=
+* SEARCH animal: http://localhost:3000/animals?name={animal name}
+* GET animals by page: http://localhost:3000/animals?page={page}
 
-* Database initialization
+## Support and contact details
 
-* How to run the test suite
+_Please contact David Shin through email at xdavidshinx@gmail.com_
 
-* Services (job queues, cache servers, search engines, etc.)
+## Technologies Used
 
-* Deployment instructions
+* Ruby
+* Rails API
+* Postgresql
+* ActiveRecord
 
-* ...
+### License
+
+Copyright (c) 2017 **_David Shin_**

@@ -34,7 +34,7 @@ end
     @animal = Animal.find(params[:id])
     if @animal.destroy!
       render status: 200, json: {
-       message: "Your animal has been updated successfully"
+       message: "Your animal has been deleted successfully"
      }
    end
   end
